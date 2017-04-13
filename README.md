@@ -14,12 +14,12 @@ You can also search for events. Just input a word and the items are filtered. Th
 
 ![grafik](https://cloud.githubusercontent.com/assets/25846873/25008160/2d951ffc-2063-11e7-819a-2f2305043eb6.png)
 
-If you click on "Details" you get an overview to this specific events.
+If you click on "Details" you get an overview to this specific event.
 
 ## Create a new event
 Just click on "New Event".
 
-A dialog appears where you can input all necessary data for your new event.
+A dialog appears in which you can input all necessary data for your new event.
 
 Please specify several possible date/times, so that users can choose which would be best for them.
 ![grafik](https://cloud.githubusercontent.com/assets/25846873/25008487/1d50a552-2064-11e7-8e00-235511fd8029.png)
@@ -34,9 +34,9 @@ You can share your events with others. Click on "Create Link to Vote". Then you 
 - **Copy to clipboard** - this does not work in every browser
 - **Write a mail** with link already filled in the body
 
-When users click on your link the Add-In opens with the specified event shown in a dialog. Now your friend is able to vote for one ore more date/time proposals which are proper for him/her.
+When users click on your link the Add-In opens with the specified event shown in a dialog. Now your friend is able to vote for one or more appointment proposals which are proper for him/her.
 
-The time with the most votes is highlighted:
+The appointment with the most votes is highlighted:
 ![grafik](https://cloud.githubusercontent.com/assets/25846873/25009664/b836fba4-2067-11e7-9268-3a1979b03870.png)
 
 **Hint:** Only users which have access to your superior SharePoint site can access your event.
