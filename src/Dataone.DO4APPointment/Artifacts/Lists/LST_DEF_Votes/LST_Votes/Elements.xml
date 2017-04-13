@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Votes" OnQuickLaunch="FALSE" TemplateType="10002" Url="Lists/Votes" Description="This list contains Vote elements."></ListInstance>
+</Elements>

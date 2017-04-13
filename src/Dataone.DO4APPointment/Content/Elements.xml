@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\ui-bootstrap-csp.css" Url="Content/ui-bootstrap-csp.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css.map" Url="Content/bootstrap.css.map" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css" Url="Content/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-datetimepicker.min.css" Url="Content/bootstrap-datetimepicker.min.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

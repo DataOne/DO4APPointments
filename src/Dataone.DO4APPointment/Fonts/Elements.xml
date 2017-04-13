@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Fonts">
+    <File Path="Fonts\glyphicons-halflings-regular.svg" Url="Fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
+    <File Path="Fonts\glyphicons-halflings-regular.ttf" Url="Fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
+    <File Path="Fonts\glyphicons-halflings-regular.woff" Url="Fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+    <File Path="Fonts\glyphicons-halflings-regular.woff2" Url="Fonts/glyphicons-halflings-regular.woff2" ReplaceContent="TRUE" />
+    <File Path="Fonts\glyphicons-halflings-regular.eot" Url="Fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

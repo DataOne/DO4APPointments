@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100F5660011029B4F529FA226F5E576A031" Name="CT_Date" Group="Do4APPointment" Description="ContentType which represents a date" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{98AD43CF-DD7B-48F0-9F9B-99FDE2150A16}" DisplayName="Start Date" Required="True" Name="DO_StartDate" />
+      <FieldRef ID="{924AA13A-C1FE-45F5-82E7-4364D0701CAF}" DisplayName="End Date" Required="True" Name="DO_EndDate" />
+      <FieldRef ID="{F39310D5-689C-4920-80A7-872A1B06C02B}" DisplayName="Referenced Event" Required="True" Name="DO_EventId" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

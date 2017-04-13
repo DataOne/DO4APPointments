@@ -1,0 +1,71 @@
+﻿button {
+    min-width:inherit;
+}
+
+textarea.form-control {
+    padding: 2px 5px;
+}
+
+.alert_container {
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    border-radius: 0 !important;
+    display: none;
+}
+.alert_container > alert{
+    padding: 5px;
+    width: 50% ;
+    display: block;
+    border-radius: 0 !important;
+    margin-bottom: 10px;
+}
+
+input.ng-invalid.ng-touched {
+    border-color: red;
+}
+
+.redBorder {
+    border-color: red !important;
+}
+
+.ms-siteicon-img {
+    height: 130px;
+    max-height: 130px;
+    width: 130px;
+    display: none;
+}
+
+#s4-titlerow {
+    height: inherit;
+}
+
+#siteIcon {
+    height: 130px;
+    line-height: 130px;
+    width: 130px;
+}
+
+#DeltaPlaceHolderPageTitleInTitleArea {
+    display: none;
+}
+
+#searchEventsDiv {
+    display: none;
+}
+
+#eventsListTable {
+    display: none;
+}
+
+#newEventDiv {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

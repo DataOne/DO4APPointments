@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="2b1b4553-93c0-4408-ba4c-435381d272d8" 
+        solutionId="2b1b4553-93c0-4408-ba4c-435381d272d8" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Dataone.DO4APPointment"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="b82974bd-3b8a-4101-aec3-c17a1a30538f" />
+  </features>
+</package>

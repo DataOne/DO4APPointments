@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  <!--Events-->
+  <Field
+    ID="{2E0FF258-0074-4C09-8CA6-0D84B26D6F2E}"
+    Name="DO_Location"
+    StaticName="DO_Location"
+    DisplayName="Event Location"
+    Type="Text"
+    Required="FALSE"
+    Group="DO4APPointment">
+  </Field>
+  <Field
+    ID="{D7080FE2-0D5A-416D-9F8C-08A862AB789C}"
+    Name="DO_Description"
+    StaticName="DO_Description"
+    DisplayName="Event Description"
+    Type="Note"
+    Required="FALSE"
+    Group="DO4APPointment">
+  </Field>
+  
+  <!--Dates-->
+  <Field
+    ID="{98AD43CF-DD7B-48F0-9F9B-99FDE2150A16}"
+    Name="DO_StartDate"
+    StaticName="DO_StartDate"
+    DisplayName="Start Date"
+    Type="DateTime"
+    Required="True"
+    Group="DO4APPointment">
+  </Field>
+  <Field
+    ID="{924AA13A-C1FE-45F5-82E7-4364D0701CAF}"
+    Name="DO_EndDate"
+    StaticName="DO_EndDate"
+    DisplayName="End Date"
+    Type="DateTime"
+    Required="True"
+    Group="DO4APPointment">
+  </Field>
+  <Field
+    ID="{F39310D5-689C-4920-80A7-872A1B06C02B}"
+    Name="DO_EventId"
+    StaticName="DO_EventId"
+    DisplayName="Referenced Event"
+    Type="Guid"
+    Required="True"
+    Group="DO4APPointment">
+  </Field>
+
+  <!--Votes-->
+  <Field
+    ID="{B8940530-D88F-44B4-B575-AD7A17E33B7D}"
+    Name="DO_DateId"
+    StaticName="DO_DateId"
+    DisplayName="Referenced Date"
+    Type="Guid"
+    Required="True"
+    Group="DO4APPointment">
+  </Field>
+
+</Elements>

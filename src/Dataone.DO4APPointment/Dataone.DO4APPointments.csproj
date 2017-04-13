@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{729FF1A1-6121-4F9A-B0F3-5DFAAC58809B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dataone.DO4APPointment</RootNamespace>
+    <AssemblyName>Dataone.DO4APPointment</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{ebb819a3-955d-4a98-949f-e0ec53eefd67}</AppFeaturePartId>
+    <WspPartId>{ca98b923-224c-46f9-a620-9b3be1f9e263}</WspPartId>
+    <WorkflowPartId>{a47193ad-a5b5-43fc-9b7a-48bf9d1c4bc6}</WorkflowPartId>
+    <CspkgPartId>{c84d3f83-6139-4824-b73b-2d3dd39c6c8f}</CspkgPartId>
+    <SqlPackagePartId>{b25450c7-f773-4c73-b5ab-8e2016034047}</SqlPackagePartId>
+    <ActivePublishProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Artifacts\ContentTypes\CT_Date\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{434fdb70-d707-4f93-8833-d2e4e6553fbf}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\ContentTypes\CT_Event\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{467b48c4-a533-476c-b98f-728866518ee2}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\ContentTypes\CT_Vote\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e711dd64-d52b-49c6-8434-57407b6e25b9}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\Fields\SC_APPointmentFields\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{73ce3dce-b061-40e3-8a54-ffd233962893}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\Lists\LST_DEF_Dates\LST_Dates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9fd5549d-1428-4cb4-ba35-8e0069faeb91}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\Lists\LST_DEF_Dates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffe8b19e-d361-45ee-ae83-16551f89ca60}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\Lists\LST_DEF_Events\LST_Events\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{38a5c872-ab1f-4869-b155-2ae0899ae32b}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\Lists\LST_DEF_Events\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8c64b8ed-7e2f-4cf8-b0d0-95f056ecdd25}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\Lists\LST_DEF_Votes\LST_Votes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4a54954e-a2b5-48ca-a55b-288f56c3f907}</SharePointProjectItemId>
+    </None>
+    <None Include="Artifacts\Lists\LST_DEF_Votes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b7558b0f-8a47-4d81-870f-ee317cad8212}</SharePointProjectItemId>
+    </None>
+    <None Include="Fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Fonts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c4048cde-1451-4b73-8257-93b0a0b9be8e}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2ef3bac5-1ca5-4d45-88de-5f78ac707ea0}</SharePointProjectItemId>
+    </None>
+    <Content Include="Artifacts\ContentTypes\CT_Date\Elements.xml" />
+    <Content Include="Artifacts\ContentTypes\CT_Event\Elements.xml" />
+    <Content Include="Artifacts\ContentTypes\CT_Vote\Elements.xml" />
+    <Content Include="Artifacts\Fields\SC_APPointmentFields\Elements.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Dates\Elements.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Dates\LST_Dates\Elements.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Dates\Schema.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Events\Elements.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Events\LST_Events\Elements.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Events\Schema.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Votes\Elements.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Votes\LST_Votes\Elements.xml" />
+    <Content Include="Artifacts\Lists\LST_DEF_Votes\Schema.xml" />
+    <Content Include="Content\bootstrap-datetimepicker.min.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="Elements.xml" />
+    <Content Include="Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Fonts\Elements.xml" />
+    <Content Include="Images\do4appointments_logo_130.jpg" />
+    <Content Include="Images\do4appointments_logo_96.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{367e5fb9-74ef-4015-b283-e0f19da9eb3b}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b25450c7-f773-4c73-b5ab-8e2016034047}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Libraries\bootstrap-datetimepicker.min.js" />
+    <Content Include="Scripts\AlertCtrl.js" />
+    <Content Include="Scripts\Libraries\angular-ui\ui-bootstrap-tpls.js" />
+    <Content Include="Scripts\Libraries\angular-ui\ui-bootstrap-tpls.min.js" />
+    <Content Include="Scripts\Libraries\angular-ui\ui-bootstrap.js" />
+    <Content Include="Scripts\Libraries\angular-ui\ui-bootstrap.min.js" />
+    <Content Include="Scripts\Libraries\angular.min.js" />
+    <Content Include="Scripts\Libraries\bootstrap.min.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\Libraries\i18n\angular-locale_de-de.js" />
+    <Content Include="Scripts\Libraries\i18n\angular-locale_en-us.js" />
+    <Content Include="Scripts\EventsCtrl.js" />
+    <Content Include="Scripts\Libraries\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\Libraries\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\Libraries\moment-with-locales.min.js" />
+    <Content Include="Scripts\Libraries\moment.min.js" />
+    <Content Include="Scripts\NewEventsCtrl.js" />
+    <Content Include="Scripts\VotesCtrl.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b0a00cd-7999-4caf-a125-1da3c15df62c}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b783b393-a0b8-4612-ad15-657cfdbbc75f}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{2b1b4553-93c0-4408-ba4c-435381d272d8}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\DO4APPointment\DO4APPointment.feature">
+      <FeatureId>{b82974bd-3b8a-4101-aec3-c17a1a30538f}</FeatureId>
+    </None>
+    <None Include="Features\DO4APPointment\DO4APPointment.Template.xml">
+      <DependentUpon>DO4APPointment.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

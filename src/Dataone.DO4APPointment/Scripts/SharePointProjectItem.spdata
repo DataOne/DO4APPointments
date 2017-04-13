@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\bootstrap.min.js" Target="Scripts\Libraries\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\angular.min.js" Target="Scripts\Libraries\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\i18n\angular-locale_en-us.js" Target="Scripts\Libraries\i18n\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\i18n\angular-locale_de-de.js" Target="Scripts\Libraries\i18n\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\jquery-2.1.4.min.js" Target="Scripts\Libraries\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\jquery-2.1.4.intellisense.js" Target="Scripts\Libraries\" Type="ElementFile" />
+    <ProjectItemFile Source="EventsCtrl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="NewEventsCtrl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\angular-ui\ui-bootstrap-tpls.min.js" Target="Scripts\Libraries\angular-ui\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\angular-ui\ui-bootstrap-tpls.js" Target="Scripts\Libraries\angular-ui\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\angular-ui\ui-bootstrap.min.js" Target="Scripts\Libraries\angular-ui\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\angular-ui\ui-bootstrap.js" Target="Scripts\Libraries\angular-ui\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\moment-with-locales.min.js" Target="Scripts\Libraries\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\moment.min.js" Target="Scripts\Libraries\" Type="ElementFile" />
+    <ProjectItemFile Source="Libraries\bootstrap-datetimepicker.min.js" Target="Scripts\Libraries\" Type="ElementFile" />
+    <ProjectItemFile Source="AlertCtrl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="VotesCtrl.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

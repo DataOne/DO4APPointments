@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Events" OnQuickLaunch="FALSE" TemplateType="10000" Url="Lists/Events" Description="This list contains Event elements."></ListInstance>
+</Elements>

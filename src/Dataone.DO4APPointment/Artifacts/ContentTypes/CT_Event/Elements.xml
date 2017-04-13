@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01000C1F5DB78C5144269AB3285E4830C25B" Name="CT_Event" Group="Do4APPointment" Description="ContentType which represents an event" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{2E0FF258-0074-4C09-8CA6-0D84B26D6F2E}" DisplayName="Event Location" Required="FALSE" Name="DO_Location" />
+      <FieldRef ID="{D7080FE2-0D5A-416D-9F8C-08A862AB789C}" DisplayName="Event Description" Required="FALSE" Name="DO_Description" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

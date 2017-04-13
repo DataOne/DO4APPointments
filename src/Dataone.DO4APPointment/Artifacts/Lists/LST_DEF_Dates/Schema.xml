@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="LST_DEF_Dates" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/LST_DEF_Dates" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /><ContentType ID="0x0100F5660011029B4F529FA226F5E576A031" Name="CT_Date" Group="Do4APPointment" Description="ContentType which represents a date" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{98AD43CF-DD7B-48F0-9F9B-99FDE2150A16}" DisplayName="Start Date" Required="True" Name="DO_StartDate" /><FieldRef ID="{924AA13A-C1FE-45F5-82E7-4364D0701CAF}" DisplayName="End Date" Required="True" Name="DO_EndDate" /><FieldRef ID="{F39310D5-689C-4920-80A7-872A1B06C02B}" DisplayName="Referenced Event" Required="True" Name="DO_EventId" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{98AD43CF-DD7B-48F0-9F9B-99FDE2150A16}" Name="DO_StartDate" StaticName="DO_StartDate" DisplayName="Start Date" Type="DateTime" Required="True" Group="DO4APPointment"></Field><Field ID="{924AA13A-C1FE-45F5-82E7-4364D0701CAF}" Name="DO_EndDate" StaticName="DO_EndDate" DisplayName="End Date" Type="DateTime" Required="True" Group="DO4APPointment"></Field><Field ID="{F39310D5-689C-4920-80A7-872A1B06C02B}" Name="DO_EventId" StaticName="DO_EventId" DisplayName="Referenced Event" Type="Guid" Required="True" Group="DO4APPointment"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="DO_StartDate" /><FieldRef Name="DO_EndDate" /><FieldRef Name="DO_EventId" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

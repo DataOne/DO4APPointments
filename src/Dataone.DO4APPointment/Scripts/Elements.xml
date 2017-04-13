@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\bootstrap.min.js" Url="Scripts/Libraries/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\angular.min.js" Url="Scripts/Libraries/angular.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\i18n\angular-locale_en-us.js" Url="Scripts/Libraries/i18n/angular-locale_en-us.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\i18n\angular-locale_de-de.js" Url="Scripts/Libraries/i18n/angular-locale_de-de.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\jquery-2.1.4.min.js" Url="Scripts/Libraries/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\jquery-2.1.4.intellisense.js" Url="Scripts/Libraries/jquery-2.1.4.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\EventsCtrl.js" Url="Scripts/EventsCtrl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\NewEventsCtrl.js" Url="Scripts/NewEventsCtrl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\angular-ui\ui-bootstrap-tpls.min.js" Url="Scripts/Libraries/angular-ui/ui-bootstrap-tpls.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\angular-ui\ui-bootstrap-tpls.js" Url="Scripts/Libraries/angular-ui/ui-bootstrap-tpls.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\angular-ui\ui-bootstrap.min.js" Url="Scripts/Libraries/angular-ui/ui-bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\angular-ui\ui-bootstrap.js" Url="Scripts/Libraries/angular-ui/ui-bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\moment-with-locales.min.js" Url="Scripts/Libraries/moment-with-locales.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\moment.min.js" Url="Scripts/Libraries/moment.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Libraries\bootstrap-datetimepicker.min.js" Url="Scripts/Libraries/bootstrap-datetimepicker.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\AlertCtrl.js" Url="Scripts/AlertCtrl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\VotesCtrl.js" Url="Scripts/VotesCtrl.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
