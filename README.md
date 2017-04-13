@@ -2,10 +2,10 @@
 This is a small and useful Add-In for SharePoint. It enables users to create events and find the most convenient date/time for all friends.
 
 ## Installation
-- Download the current release
+- Download the [current release](https://github.com/DataOne/DO4APPointments/releases)
 - Upload the .app-file in your App Catalog
 
-## Overview
+## Event overview
 When you open the Add-In you see a overview of all events you have created or voted for:
 
 ![grafik](https://cloud.githubusercontent.com/assets/25846873/25007938/695b06ce-2062-11e7-8d2d-04a772a20402.png)
@@ -39,4 +39,4 @@ When users click on your link the Add-In opens with the specified event shown in
 The time with the most votes is highlighted:
 ![grafik](https://cloud.githubusercontent.com/assets/25846873/25009664/b836fba4-2067-11e7-9268-3a1979b03870.png)
 
-**Hint:** Only users which have access to your superior SharePoint site can access your event-
+**Hint:** Only users which have access to your superior SharePoint site can access your event.
